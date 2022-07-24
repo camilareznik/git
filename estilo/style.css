@@ -1,0 +1,30 @@
+
+
+.titulo:hover {
+    height: 100px;
+    background-color: rgb(255, 61, 94);
+    font-size: 40px;
+    text-align: center;
+}
+
+.gradiante {
+    height: auto;
+    background-image: linear-gradient(to left, rgb(255, 61, 94), rgb(255, 225, 230));
+    text-align: center;
+}
+
+.slide {
+    position: relative;
+    animation: slide 4s infinite linear;
+    height: 300px;
+    width: 300px;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(100%, 0);
+    }
+  }
